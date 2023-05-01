@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.tab {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bolder;
+  color: #0f172a;
+  background-color: transparent;
+  border: none;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.active-tab {
+  color: #0284c7;
+  border: 1px solid #0284c7;
+  border-radius: 20px;
+}

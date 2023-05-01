@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.github-bg-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.responsive-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    width: 70%;
+  }
+}
+
+.github-title {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-weight: 700;
+  font-size: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .github-title {
+    font-size: 60px;
+  }
+}
+
+.tabs-container {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.loader-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view-image {
+  width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-view-image {
+    width: 500px;
+  }
+}
+
+.failure-text {
+  color: #1e293b;
+  font-family: 'Lobster';
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.success-view-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .success-view-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+}
